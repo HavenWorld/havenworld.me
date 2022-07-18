@@ -16,35 +16,22 @@
 
 <svelte:head>
 	<title>About</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="About this site" />
 </svelte:head>
+<!-- <a href="/link">TEXT</a> -->
+<div class="content text-white text-center w-100">
+	<div class="max-w-sm bg-hw-pink border border-hw-cerulean">
+		<div class="flex flex-col items-center pb-10">
+			<img class="mb-3 mt-2 w-24 h-24 rounded-full shadow-lg bg-white" src="/img/persona_cn.png" alt="\Quant\">
+			<h5 class="mb-1 text-xl font-medium text-hw-black">Quantum Automata</h5>
+			<span class="text-sm text-hw-black">Founder</span>
+			<div class="flex mt-4 space-x-3 lg:mt-6">
 
-<div class="content">
-	<h1>About this app</h1>
-
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<pre>npm init svelte</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
-	</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
-	.content {
-		width: 100%;
-		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
-	}
+	
 </style>
